@@ -1,0 +1,8 @@
+1 git add .
+2 git commit -m "MENSAJE DEL COMMIT"  //control de cambios
+3 git push  //porq lo clonamos antes
+nota:comando git clone
+se utiliza una unica vez por cada repositor en cada carpeta-clona el contenido de github a tu carpeta
+nota:comando git status
+se ejecuta las veces q quiera en el momento q quiera
+4 
