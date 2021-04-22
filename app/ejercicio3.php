@@ -8,7 +8,8 @@
 	7  - 8
 	sep - oct prim 
 	9   - 10*/
-	echo "Ejercicio 3:al ingresar un mes del año informar si es invierno, verano, otoño o primavera. <br>";
+	echo "<h1>Ejercicio 3:al ingresar un mes del año informar si es invierno, verano, otoño o primavera.</h1> <br>";
+	echo "<br>";
 	$mes=rand(1,12);
 	echo "Mes " . $mes;
 
