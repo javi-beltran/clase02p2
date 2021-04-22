@@ -1,5 +1,6 @@
 <?php
-//4- pedir tres números informar el mayor de los tres  
+
+echo "Ejercicio 4: pedir tres números informar el mayor de los tres <br> ";
 
 $edad1=rand(1,90);
 
