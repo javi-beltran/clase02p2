@@ -1,38 +1,41 @@
 <?php
-	/*
-	3-al ingresar un mes del año informar si es invierno, verano, otoño o primavera. 
+//4- pedir tres números informar el mayor de los tres  
 
-	may - jun otoño
-	5   - 6
-	jul - agos invr
-	7  - 8
-	sep - oct prim 
-	9   - 10*/
-	
-	$mes=rand(1,12);
-	echo "Mes" . $mes . "<br>";
+$edad1=rand(1,90);
 
-	switch($mes) {
-		case 5: 
-			echo " es Otoño";
-		break;
-		case 6: 
-			echo " es Otoño";
-		break;
-		case 7: 
-			echo " es Invierno";
-		break;
-		case 8: 
-			echo " es Invierno";
-		break;
-		case 9: 
-			echo " es Invierno";
-		break;
-		case 10:
-			echo " es Invierno";
-		break;
-		default;
-			echo " es Primavera";
-	}
-				
+$edad2=rand(1,90);
+
+$edad3=rand(1,90);
+
+$variable_aux;
+
+echo "Edad 1 " . $edad1 ." años";
+	echo "<br>";
+	echo "<br>";
+echo "Edad 2 " . $edad2 ." años";
+	echo "<br>";
+	echo "<br>";
+echo "Edad 3 " . $edad3 ." años";
+	echo "<br>";
+	echo "<br>";
+
+// proceso
+
+		if ($edad1 > $edad2) {
+
+		 	$variable_aux = $edad1;	
+
+		}else
+
+			{
+				$variable_aux = $edad2;	
+			}
+
+		if($edad3 > $variable_aux){
+		 
+		  	$variable_aux = $edad3;
+
+		}
+
+echo "<h1>Edad " . $variable_aux ." años</h1>";
 ?>
