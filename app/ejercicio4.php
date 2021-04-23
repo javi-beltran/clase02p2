@@ -22,6 +22,20 @@ echo "Edad 3 " . $edad3 ." años";
 
 // proceso
 
+	if ($edad1>$edad2 && $edad1>$edad3){
+		echo "<h1>La edad mayor es edad 1 ".$edad1 ." </h1>";
+	}else
+	{
+		if($edad2>$edad3){
+			echo "<h1>La edad mayor es edad 2 ".$edad2 ." </h1>";	
+		}else
+			{
+			echo "<h1>La edad mayor es edad 3 ".$edad3 ." </h1>";		
+			}
+	}
+
+
+/* LA IDEA ES "AGRUPAR LOS IF"
 		if ($edad1 > $edad2) {
 
 		 	$variable_aux = $edad1;	
@@ -39,4 +53,5 @@ echo "Edad 3 " . $edad3 ." años";
 		}
 
 echo "<h1>Edad " . $variable_aux ." años</h1>";
+*/
 ?>
