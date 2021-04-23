@@ -1,5 +1,5 @@
 <?php
-//al ingresar un precio se muestra el precio más IVA 
+echo "Ejercicio 2 : Al ingresar un precio se muestra el precio más IVA <br>";
 
 $precio=rand(1,1000);
 	echo "precio es ".$precio ;
