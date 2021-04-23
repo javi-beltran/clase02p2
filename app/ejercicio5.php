@@ -1,6 +1,6 @@
 <?php
 
-$edad=rand(1,21);
+$edad=rand(1,40);
 
 echo "La edad es ". $edad;
 echo "<br>";
