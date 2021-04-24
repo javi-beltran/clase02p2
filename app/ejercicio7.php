@@ -11,15 +11,15 @@ echo "<br>";
 echo "numero 3 " . $numero3 ; 
 echo "<br>";
 if (($numero1>$numero2 && $numero1<$numero3)||($numero1<$numero2 && $numero1>$numero3)){
-		echo"Hay numero 1 = ". $numero1 ." tiene medio";
+		echo"Numero 1 = ". $numero1 ." tiene medio";
 	}else
 	{
 		if (($numero2>$numero3 && $numero2<$numero1)||($numero2<$numero3 && $numero2>$numero1)){
-			echo"Hay numero 2 = ". $numero2 ." tiene medio";
+			echo"Numero 2 = ". $numero2 ." tiene medio";
 		}else
 			{
 				if (($numero3>$numero2 && $numero3<$numero1)||($numero3<$numero2 && $numero3>$numero1)){
-					echo"Hay numero 3 = ". $numero3 ." tiene medio";
+					echo"Numero 3 = ". $numero3 ." tiene medio";
 				}else
 				{
 					echo "<h1>No tine medio </h1>";					
