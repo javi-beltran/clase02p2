@@ -9,5 +9,9 @@ if($edad<=15)
 	echo"Mayor de edad";
 }*/
 
-$miNombre="javier";
+
+//$miNombre="javier";
+function mostrar($datoparamostrar){
+echo "hola Ejercicio 1 ".$datoparamostrar;
+}
 ?>

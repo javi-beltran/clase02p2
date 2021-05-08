@@ -25,8 +25,6 @@ echo "<br>";
 
 switch ($lugar) {
     case "bariloche";
-        echo "Hace frio";
-        break;
     case "ushuaia";
             echo "Hace Frio";
         break;
